@@ -64,3 +64,17 @@
 .opcoes {
     display: none;
 }
+
+.container__texto {
+    display: none;
+}
+
+.container__botao:checked~.container__rotulo>.cabecalho__menu-hamburguer {
+    background-image: url(/img/Menu_Aberto.svg); 
+}
+
+.container__botao:checked~.container__rotulo {
+    background: var(--azul-degrade);
+    background-size: contain;
+    display: inline-block;
+}
